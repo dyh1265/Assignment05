@@ -76,7 +76,7 @@ void a_instancing() {
         itree->translate(Vector(sin(angle) * circleRadius, 0.0f, cos(angle) * circleRadius));
         scene->add(itree);
     }
-//
+
     {
     Instance* broken = new Instance(tree);
     broken->rotate(Vector(0.3f, 0.0f, 0.7f),-1.0f);
@@ -90,7 +90,7 @@ void a_instancing() {
     broken->translate(Vector(5.0f, -0.5f, 0.0f));
     scene->add(broken);
     }
-//
+
     {
     Instance* flat = new Instance(tree);
     flat->scale(Vector(0.3f, 1.5f, 1.5f));
@@ -102,7 +102,6 @@ void a_instancing() {
    scene->rebuildIndex();
 
     World world;
-//  world.scene = tree;
     world.scene = scene;
     RayCastingIntegrator integrator(&world);
 
