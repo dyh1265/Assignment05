@@ -25,15 +25,6 @@ void a_indexing() {
     scene->add(new Sphere(Point(2.5f,  -1.f,  -1), 0.5, nullptr, nullptr));
     scene->add(new Sphere(Point(4.5f,  .5f,  -1), 0.5 , nullptr, nullptr));
     
-    
-//    scene->add(new Sphere(Point(3.5f,  -1.f,  -1), 0.3, nullptr, nullptr));
-//   scene->add(new Sphere(Point(4.5f,  .58f,  -1), 0.2 , nullptr, nullptr));
-//     scene->add(new Sphere(Point(-7.f,  .58f,  -1), 0.2 , nullptr, nullptr));
-//     scene->add(new Triangle(Point(-2, 3.7f, 0), Point(-2, 2,  1), Point( 3, 2.8f, -2), nullptr, nullptr));
-////    
- // scene->add(new Triangle(Point(-3, -3.7f, 1), Point(2, 2,  1), Point( 3, 2.8f, -2), nullptr, nullptr));
-  // scene->add(new Triangle(Point(-3, 3.7f, 2), Point(2, 2,  1), Point( 3, 2.8f, -2), nullptr, nullptr));
-    
 loadOBJ(scene, "models/", "cow.obj");
   
 	scene->rebuildIndex();
