@@ -90,6 +90,9 @@ namespace rt {
         
         return Intersection(t, ray, this, interp_n, Point(b1, b2, b3));
     }
+    void SmoothTriangle::setMaterial(Material* m){
+        this->material = m;
+    }
     Point SmoothTriangle:: get_midpoint() const{
         NOT_IMPLEMENTED;
     }

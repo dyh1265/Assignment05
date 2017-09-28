@@ -39,6 +39,9 @@ Intersection InfinitePlane::intersect(const Ray& ray,float previousBestDistance)
         if (this->normal.y>0) return BBox(Point(-FLT_MAX+epsilon,0,-FLT_MAX+epsilon),Point(FLT_MAX-epsilon,0,FLT_MAX-epsilon));
         return BBox(Point(-FLT_MAX+epsilon,-FLT_MAX+epsilon,0),Point(FLT_MAX-epsilon,FLT_MAX-epsilon,0));
     }
+    void InfinitePlane::setMaterial(Material* m){
+        this->material = m;
+    }
     Point InfinitePlane::sample() const{
         NOT_IMPLEMENTED;
         return Point();

@@ -39,6 +39,9 @@ namespace rt {
     }
     
     void SimpleGroup::setMaterial(Material* m) {
+        for (int i = 0; i<groupElements.size();i++){
+            groupElements[i]->setMaterial(m);
+        }
     }
     
     BBox SimpleGroup::getBounds() const{

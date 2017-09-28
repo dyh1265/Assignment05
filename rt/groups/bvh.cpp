@@ -294,7 +294,11 @@ namespace rt {
         return bbox;
     }
     /***********************************************************************/
-    void BVH::setMaterial(Material* m){}
+    void BVH::setMaterial(Material* m){
+        for (int i = 0; i<primitives.size();i++){
+            primitives[i]->setMaterial(m);
+        }
+    }
     /***********************************************************************/
     void BVH::setCoordMapper(CoordMapper *cm){}
     /***********************************************************************/

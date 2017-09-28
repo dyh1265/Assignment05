@@ -49,6 +49,9 @@ namespace rt {
     float Sphere::getArea() const {
         return this->radius * this->radius * M_PI * 4;
     }
+    void Sphere::setMaterial(Material* m){
+        this->material = m;
+    }
     Point Sphere::sample() const{
         NOT_IMPLEMENTED;
         return Point();

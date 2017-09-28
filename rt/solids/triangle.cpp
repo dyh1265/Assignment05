@@ -76,7 +76,9 @@ namespace rt {
         
         return Intersection(t, ray, this, this->n, Point(b1, b2, b3));
     }
-    
+    void Triangle::setMaterial(Material* m){
+        this->material = m;
+    }
     Point Triangle::sample() const {
         NOT_IMPLEMENTED;
     }

@@ -15,7 +15,8 @@ public:
         CoordMapper* texMapper, Material* material);
 
     virtual Intersection intersect(const Ray& ray, float previousBestDistance=FLT_MAX) const;
-     virtual Point get_midpoint() const;
+    virtual Point get_midpoint() const;
+    virtual void setMaterial(Material* m);
 private:
     Point v1;
     Point v2;

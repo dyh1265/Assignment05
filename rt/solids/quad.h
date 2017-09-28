@@ -21,7 +21,8 @@ public:
     virtual Intersection intersect(const Ray& ray, float previousBestDistance=FLT_MAX) const;
 	virtual Point sample() const;
     virtual float getArea() const;
-     virtual Point get_midpoint() const;
+    virtual Point get_midpoint() const;
+    virtual void setMaterial(Material* m);
 };
 
 }

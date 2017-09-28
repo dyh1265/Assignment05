@@ -21,6 +21,7 @@ public:
     virtual Point sample() const;
     virtual float getArea() const;
     virtual Point get_midpoint() const;
+    virtual void setMaterial(Material* m);
 };
 
 }

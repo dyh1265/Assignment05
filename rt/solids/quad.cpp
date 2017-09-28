@@ -69,6 +69,9 @@ namespace rt {
         
         return box;
     }
+    void Quad::setMaterial(Material* m){
+        this->material = m;
+    }
     Point Quad::sample() const{
         NOT_IMPLEMENTED;
         return Point();

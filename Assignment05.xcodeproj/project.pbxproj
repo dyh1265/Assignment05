@@ -45,6 +45,7 @@
 		3119FB641F7BADE8000D2DE8 /* sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3119FB261F7BAAAC000D2DE8 /* sphere.cpp */; };
 		3119FB651F7BADE8000D2DE8 /* striangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3119FB281F7BAAAC000D2DE8 /* striangle.cpp */; };
 		3119FB661F7BADE8000D2DE8 /* triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3119FB2A1F7BAAAC000D2DE8 /* triangle.cpp */; };
+		3119FB681F7C51FF000D2DE8 /* dummy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3119FB671F7C51FE000D2DE8 /* dummy.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -149,6 +150,7 @@
 		3119FB331F7BAAAC000D2DE8 /* a_solids.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = a_solids.cpp; sourceTree = "<group>"; };
 		3119FB341F7BAAAC000D2DE8 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3119FB391F7BAAC3000D2DE8 /* cgdoc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cgdoc; sourceTree = BUILT_PRODUCTS_DIR; };
+		3119FB671F7C51FE000D2DE8 /* dummy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dummy.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +304,7 @@
 			isa = PBXGroup;
 			children = (
 				3119FB111F7BAAAC000D2DE8 /* dummy.h */,
+				3119FB671F7C51FE000D2DE8 /* dummy.cpp */,
 				3119FB121F7BAAAC000D2DE8 /* material.h */,
 			);
 			path = materials;
@@ -470,6 +473,7 @@
 				3119FB5D1F7BADE8000D2DE8 /* ray.cpp in Sources */,
 				3119FB5E1F7BADE8000D2DE8 /* renderer.cpp in Sources */,
 				3119FB5F1F7BADE8000D2DE8 /* aabox.cpp in Sources */,
+				3119FB681F7C51FF000D2DE8 /* dummy.cpp in Sources */,
 				3119FB601F7BADE8000D2DE8 /* disc.cpp in Sources */,
 				3119FB611F7BADE8000D2DE8 /* infiniteplane.cpp in Sources */,
 				3119FB621F7BADE8000D2DE8 /* quad.cpp in Sources */,

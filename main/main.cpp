@@ -16,7 +16,7 @@ void objTextured();
 
 int main(int argc, char* argv[])
 {
-    a_instancing();
-  //  a_solids();
+    
+    a_lighting();
     return 0;
 }

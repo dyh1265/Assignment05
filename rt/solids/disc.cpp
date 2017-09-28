@@ -31,7 +31,9 @@ namespace rt {
     float Disc::getArea() const {
         return 3.14f * this->radius * this->radius;
     }
-    
+    void Disc::setMaterial(Material* m){
+        this->material = m;
+    }
     Point Disc::sample() const{
         NOT_IMPLEMENTED;
         return Point();

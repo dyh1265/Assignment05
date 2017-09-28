@@ -92,4 +92,7 @@ namespace  rt{
                                       0.5 * (corner1.y + corner2.y),
                                       0.5 * (corner1.z + corner2.z));
     }
+    void AABox::setMaterial(Material* m){
+        this->material = m;
+    }
 }
